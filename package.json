@@ -1,8 +1,8 @@
 {
-  "name": "readability",
-  "version": "0.2.0",
+  "name": "@mozilla/readability",
+  "version": "0.3.0",
   "description": "A standalone version of the readability library used for Firefox Reader View.",
-  "main": "Readability.js",
+  "main": "index.js",
   "scripts": {
     "lint": "eslint .",
     "test": "mocha test/test-*.js",
@@ -20,16 +20,17 @@
     "url": "https://github.com/mozilla/readability/issues"
   },
   "engines": {
-    "node": ">=7.0"
+    "node": ">=10.0.0"
   },
   "homepage": "https://github.com/mozilla/readability",
   "devDependencies": {
     "chai": "^2.1.*",
     "eslint": ">=4.2",
     "htmltidy2": "^0.3.0",
-    "js-beautify": "^1.5.5",
+    "js-beautify": "^1.13.0",
     "jsdom": "^13.1",
     "matcha": "^0.6.0",
-    "mocha": "^2.2.*"
+    "mocha": "^2.2.*",
+    "sinon": "^7.3.2"
   }
 }
